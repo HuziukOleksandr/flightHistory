@@ -1,7 +1,6 @@
 <template>
   <div class="wrapper">
     <Map :history="data ?? []" />
-    <!-- <button class="button" @click="">Start</button> -->
   </div>
 </template>
 
@@ -28,14 +27,5 @@ axios
   width: fit-content;
   margin: 50px auto;
   position: relative;
-}
-
-.button {
-  position: absolute;
-  padding: 10px 20px;
-  border-radius: 10px;
-  border: none;
-  bottom: 20%;
-  background-color: yellowgreen;
 }
 </style>
